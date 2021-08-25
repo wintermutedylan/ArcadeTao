@@ -8,6 +8,7 @@ module.exports = async (Discord, client, message) => {
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const cmd = args.shift().toLowerCase();
+    console.log(cmd);
     
     
     
