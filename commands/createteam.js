@@ -14,7 +14,7 @@ module.exports = {
                 let team = await teamModel.create({
                     teamID: teamName,
                     members: [],
-                    coins: 50,
+                    coins: 100,
                     invaders: 0,
                     position: 0
                 });

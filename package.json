@@ -1,6 +1,9 @@
 {
   "name": "Arcade Tao",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.7.0"
+  },
   "description": "Bot for the HTC 25k event",
   "main": "main.js",
   "scripts": {
