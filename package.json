@@ -1,0 +1,17 @@
+{
+  "name": "Arcade Tao",
+  "version": "1.0.0",
+  "description": "Bot for the HTC 25k event",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blakninja",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.13.8"
+  }
+}
