@@ -24,7 +24,7 @@ module.exports = {
         let teamData;
         teamData = await teamModel.findOne({teamID: teamName});
         if (!teamData) return message.reply("Unfortunately, that team doesn't exist. :cry: ");
-        if (teamData.members.length >= 5) return message.reply(`Team ${teamData.teamID} already has the maximum amount of members allowed!`);
+        if (teamData.members.length >= 6) return message.reply(`Team ${teamData.teamID} already has the maximum amount of members allowed!`);
 
         try {
             await teamModel.findOneAndUpdate(
